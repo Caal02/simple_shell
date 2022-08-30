@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 #include "main.h"
 
 
+=======
+include "main.h"
+>>>>>>> d9c8b5f7632dcc7a07f3ce3612ebf7893d985c27
 
 /**
  *
