@@ -1,4 +1,4 @@
-#include "shell.h"
+#include "main.h"
 
 /**
  * list_path - create a list whith the direcories in the PATH.
