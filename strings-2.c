@@ -1,4 +1,4 @@
-#include "main.h"
+#include "shell.h"
 
 /**
  * clean_comments - remove the comments from a buffer.

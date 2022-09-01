@@ -1,4 +1,4 @@
-#include "main.h"
+#include "shell.h"
 
 /**
  * main - execute the interactive or non-interactive mode of the shell.

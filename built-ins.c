@@ -1,4 +1,4 @@
-#include "main.h"
+#include "shell.h"
 
 /**
  * check_syntax - checks if the command separator syntax is correct.

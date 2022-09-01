@@ -1,4 +1,4 @@
-#include "main.h"
+#include "shell.h"
 
 /**
  * ctrl_c - detect the CTRL+C signal and print another line with the prompt.
