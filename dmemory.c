@@ -23,7 +23,7 @@ char **create_argv(char *input_buffer, list_t **path)
 			(new_input[i + 1] &&
 				(new_input[i + 1] != ' ' &&
 					new_input[i + 1] != '\n')))
-			argc += 1;
+			argc = argc + 1;
 		i++;
 	}
 
