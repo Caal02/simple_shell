@@ -1,5 +1,4 @@
 #include "shell.h"
-
 /**
  * list_path - create a list whith the direcories in the PATH.
  * @env: environment variable.
@@ -40,7 +39,6 @@ list_t *list_path(char **env)
 
 	return (head);
 }
-
 
 /**
  * create_list - create a list whith the direcories in the PATH.
