@@ -3,7 +3,7 @@
 /**
  * check_syntax - checks if the command separator syntax is correct.
  * @buffer: buffer to check.
- * Return: 0 if the syntax is correct, -1 if the line contains a syntax error.
+ * Return: 0 if the syntax is correct, -1 if the line contains a syntax error
  */
 int check_syntax(char *buffer)
 {
@@ -34,7 +34,7 @@ int check_syntax(char *buffer)
 /**
  * check_builtin - checks
  * @command: a
- * Return: 0 si es, -1 si no.
+ * Return: 0 si es, -1 si no
  */
 int check_builtin(char *command)
 {
@@ -51,7 +51,7 @@ int check_builtin(char *command)
  * builtins - checks
  * @input: a
  * @env: a
- * Return: 0 si no se ejecuta ningun builtin, 1 si se ejecuta, -1 error.
+ * Return: 0 si no se ejecuta ningun builtin, 1 si se ejecuta, -1 error
  */
 int builtins(char **input, char **env)
 {
@@ -87,7 +87,7 @@ int builtins(char **input, char **env)
 
 /**
  * print_help - print help of how to use builtins commands.
- * @input: input buffer.
+ * @input: input buffer
  */
 void print_help(char **input)
 {

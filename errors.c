@@ -1,7 +1,6 @@
 #include "shell.h"
-
 /**
- * ctrl_c - detect the CTRL+C signal and print another line with the prompt.
+ * ctrl_c - detect the CTRL+C signal and print another line with the prompt
  * @x: idk.
  */
 void ctrl_c(__attribute__((unused)) int x)

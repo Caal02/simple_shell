@@ -1,5 +1,4 @@
 #include "shell.h"
-
 /**
  * clean_comments - remove the comments from a buffer.
  * @buffer: buffer to clean.
@@ -47,7 +46,6 @@ int not_empty(char *input_buffer)
 	}
 	if (input_buffer[i] && input_buffer[i] != '\n')
 		boolean = -1;
-
 	return (boolean);
 }
 
@@ -69,7 +67,6 @@ int str_twins(char *s1, char *s2)
 	}
 	if (s1[i] != s2[i])
 		return (-1);
-
 	return (0);
 }
 
@@ -90,7 +87,6 @@ int str_count(char *buffer, char c)
 			counter++;
 		i++;
 	}
-
 	return (counter + 1);
 }
 
@@ -121,6 +117,5 @@ char *str_tr(char *buffer, char old_char, char new_char)
 			new_buffer[i] = new_char;
 		i++;
 	}
-
 	return (new_buffer);
 }
